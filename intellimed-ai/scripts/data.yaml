@@ -1,0 +1,16 @@
+# IntelliMed AI — Medicine Detection Dataset Specification
+# Architecture: Ultralytics YOLOv8 (nano)
+# ResearchMajorProject: Final Year B.Tech
+
+path: ./pill_dataset # dataset root dir
+train: images/train # train images (relative to 'path')
+val: images/val     # val images (relative to 'path')
+test: images/test   # test images (optional)
+
+# Number of classes
+nc: 2
+
+# Class Names
+names:
+  0: Dolo_650
+  1: Cetirizine
